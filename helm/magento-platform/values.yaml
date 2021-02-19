@@ -89,7 +89,7 @@ magento:
   sampleData: "\"true\""
   adminURI: admin
   databaseName: magento
-  host: localhost
+  host: magento
 
 mariadb:
   host: mariadb1

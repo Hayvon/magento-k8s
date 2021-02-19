@@ -37,7 +37,7 @@ spec:
           value: {{ .Values.magento.databaseName }}
         - name: MAGENTO_DATABASE_PASSWORD
           valueFrom:
-            configMapKeyRef:
+           configMapKeyRef:
               name: {{ .Release.Name }}-configmap
               key: password
         - name: MAGENTO_DATABASE_USER
